@@ -36,7 +36,8 @@ class App extends Component {
                                 <p>
                                   <Button 
                                     variant="contained"
-                                    href={project.html_url}>
+                                    href={project.html_url}
+                                    target="_blank">
                                     {project.name}
                                   </Button></p>
                                 <p>{project.description}</p>
