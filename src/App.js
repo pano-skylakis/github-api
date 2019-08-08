@@ -24,10 +24,10 @@ class App extends Component {
         return (
             <div className="App">
 
-                <h1>Hi, my name is PABLO</h1>
+                <h1>Hi, my name is PANO</h1>
                 <h3>Estoy un developer</h3>
 
-                <h4>Aqui es mi projects</h4>
+                <h4>Aqui es mi proyectos</h4>
 
                 {
                     projects.length ? (

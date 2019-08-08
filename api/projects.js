@@ -8,11 +8,12 @@ module.exports = (req, res) => {
         .then(projects => {
 
             const gitHubProjects = projects.map(project => {
-                return {
-                    name: project.name,
-                    html_url: project.html_url,
-                    description: project.description
-                }
+                return project
+                    // name: project.name,
+                    // html_url: project.html_url,
+                    // description: project.description
+
+
             });
 
             res.json(gitHubProjects);    
